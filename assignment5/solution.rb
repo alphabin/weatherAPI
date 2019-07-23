@@ -1,7 +1,7 @@
 require_relative 'city_weather'
 
 
-puts 'enter city name'
+puts 'Enter City'
 city = gets.chomp!
 response = CityWeather.for(city)
 
